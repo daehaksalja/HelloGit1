@@ -1,5 +1,6 @@
 package main;
 
+import calc.Bbagi;
 import calc.Calculator;
 
 public class Main {
@@ -21,6 +22,11 @@ System.out.println("끝");
 		Calculator cal = new Calculator();
 		int addResult = cal.add(2, 1);
 		System.out.println(addResult);
+		
+		Bbagi cal2 = new Bbagi();
+		int addResult2 = cal2.bbagi(2, 1);
+		System.out.println(addResult2);
+		
 	}
 
 }
