@@ -1,5 +1,7 @@
 package main;
 
+import calc.Calculator;
+
 public class Main {
 
 	public static void main(String[] args) {
@@ -16,6 +18,9 @@ System.out.println("끝");
 		System.out.println("팀2입니다");
 		System.out.println("팀3입니다");
 
+		Calculator cal = new Calculator();
+		int addResult = cal.add(2, 1);
+		System.out.println(addResult);
 	}
 
 }
